@@ -1,0 +1,14 @@
+Imagine	66428	// regName Sha1 % n
+Imagine	6642b	// g
+Imagine	6642f	// p
+Imagine	66432	// pow(g, k, p)
+Imagine	6643c	// r = pow(g, k, p) % q
+Imagine	6646c	// regcode^-1 % q
+Imagine	66471	// as hash
+Imagine	66474	// w
+Imagine	6647c	// got u1
+Imagine	66481	// w
+Imagine	66483	// r
+Imagine	6648b	// got u2
+Imagine	664a2	// got pow( g, u1, p ) * pow ( y, u2, p ) % p
+ntdll	2ae7f	00401000
